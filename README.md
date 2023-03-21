@@ -1,5 +1,7 @@
 # SocketFileTranslation-20230321
-This project aims at regularly translating files from clients, such as one-chip computer(STM-32, Raspberry Pi, etc) to a data collecting server. It can divide a large file into small pieces and then transfer them to the server in blocks, and merge them on the server side
+This project aims at regularly translating files from clients, such as one-chip computer(STM-32, Raspberry Pi, etc) to a data collecting server. It can divide a large file into small pieces and then transfer them to the server in blocks, and merge them on the server side.
+
+
 Usage: 
 1. If you choose Windows system as your server, please Compile the source file in a bash capable software, or you just modify the header files in the beginning.
    gcc server.c -o server.exe  # Windows
